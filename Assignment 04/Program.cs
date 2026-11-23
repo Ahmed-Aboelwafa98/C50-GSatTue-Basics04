@@ -6,13 +6,13 @@ namespace Assignment_04
     {
         static void Main(string[] args)
         {
-            #region Qussion 01
+            #region Question 01
             //Create a one-dimensional array double[] prices with the values 25.5, 40.0, 33.75. Print
             //the second price(index 1).
             //double[] prices = { 25.5, 40.0, 33.75 };
             //Console.WriteLine(prices[1]);
             #endregion
-            #region Qussion 02
+            #region Question 02
 
             //Create a 2x2 multidimensional array int[,] shelfCopies where shelf 0 has 3, 5 copies and
             //shelf 1 has 1, 4 copies.Print the number of copies on shelf 1, slot 0.
@@ -20,7 +20,7 @@ namespace Assignment_04
             //int[,] shelfCopies = { { 3, 5 }, { 1, 4 } };
             //Console.WriteLine(shelfCopies[1, 0]);
             #endregion
-            #region Qussion 03
+            #region Question 03
             //Write a method called PrintWelcomeMessage that takes no parameters and prints
             //"Welcome to the Library!".Call it from Main.
             //void PrintWelcomeMessage()
@@ -29,7 +29,7 @@ namespace Assignment_04
             //}
             //PrintWelcomeMessage();
             #endregion
-            #region Qussion 04
+            #region Question 04
             //Write a method PrintBookTitle(string title) that prints "Book title: " + title.Call it with
             ////"Clean Code".
             //void PrintBookTitle(string title)
@@ -39,7 +39,7 @@ namespace Assignment_04
             //PrintBookTitle("GudFuther");
             //PrintBookTitle("Clean Code");
             #endregion
-            #region Qussion 05
+            #region Question 05
             //Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable
             //int pages = 400; and print pages afterward. What do you expect to see, and why?
             //int AddBonusPages(int pages)
@@ -52,7 +52,7 @@ namespace Assignment_04
             //Console.WriteLine(pages);//400 + 50 = 450
             //// if you don't assign the return value of AddBonusPages pages will remain 400 only
             #endregion
-            #region Qussion 06
+            #region Question 06
             //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].Call it
             //with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to
             //see, and why?
@@ -64,7 +64,10 @@ namespace Assignment_04
             //double[] prices = { 25.5, 40.0 };
             //prices = ApplyDiscount(prices);
             //Console.WriteLine(prices);
-            //Console.WriteLine(prices[0]);//subtract 5 from price becouse i tolt it that but if i print [1] it dos't change becouse i don't tolt it that
+            //Console.WriteLine(prices[0]);//subtract 5 from price becouse i told it that but if i print [1] it dosen't change becouse i don't tolt it that
+            #endregion
+            #region Question 07
+
             #endregion
 
         }
