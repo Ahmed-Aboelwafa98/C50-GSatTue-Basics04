@@ -67,7 +67,17 @@ namespace Assignment_04
             //Console.WriteLine(prices[0]);//subtract 5 from price becouse i told it that but if i print [1] it dosen't change becouse i don't tolt it that
             #endregion
             #region Question 07
+            //Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref.
+            //Call it and print pages afterward. How is the result different from question 5 ?
 
+            //int AddBonusPagesByRef(ref int pages)
+            //{
+            //    pages += 50;
+            //    return pages;
+            //}
+            //int pages = 400;
+            //pages = AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
             #endregion
 
         }
