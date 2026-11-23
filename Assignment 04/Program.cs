@@ -29,6 +29,16 @@ namespace Assignment_04
             //}
             //PrintWelcomeMessage();
             #endregion
+            #region Qussion 04
+            //Write a method PrintBookTitle(string title) that prints "Book title: " + title.Call it with
+            ////"Clean Code".
+            //void PrintBookTitle(string title)
+            //{
+            //    Console.WriteLine("Book title: " + title);
+            //}
+            //PrintBookTitle("GudFuther");
+            //PrintBookTitle("Clean Code");
+            #endregion
         }
     }
 }
