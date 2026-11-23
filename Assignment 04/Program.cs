@@ -52,6 +52,22 @@ namespace Assignment_04
             //Console.WriteLine(pages);//400 + 50 = 450
             //// if you don't assign the return value of AddBonusPages pages will remain 400 only
             #endregion
+            #region Qussion 06
+            //Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0].Call it
+            //with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward.What do you expect to
+            //see, and why?
+            //double[] ApplyDiscount(double[] prices)
+            //{
+            //    prices[0] -= 5;
+            //    return prices;
+            //}
+            //double[] prices = { 25.5, 40.0 };
+            //prices = ApplyDiscount(prices);
+            //Console.WriteLine(prices);
+            //Console.WriteLine(prices[0]);//subtract 5 from price becouse i tolt it that but if i print [1] it dos't change becouse i don't tolt it that
+            #endregion
+
         }
     }
 }
+
