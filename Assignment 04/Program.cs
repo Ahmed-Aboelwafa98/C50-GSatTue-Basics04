@@ -39,6 +39,19 @@ namespace Assignment_04
             //PrintBookTitle("GudFuther");
             //PrintBookTitle("Clean Code");
             #endregion
+            #region Qussion 05
+            //Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable
+            //int pages = 400; and print pages afterward. What do you expect to see, and why?
+            //int AddBonusPages(int pages)
+            //{
+            //    pages += 50;
+            //    return pages;
+            //}
+            //int pages = 400;
+            //pages = AddBonusPages(pages);//page = 400 and AddBonusPages = 50 //it add 400 to 50 and return it to pages 
+            //Console.WriteLine(pages);//400 + 50 = 450
+            //// if you don't assign the return value of AddBonusPages pages will remain 400 only
+            #endregion
         }
     }
 }
