@@ -143,21 +143,19 @@ namespace Assignment_04
             //Write a method PrintAllTitles(params string[] titles) that prints each title on its own line.
             //Call it with three book titles
 
-            static void PrintAllTitles(params string[] titles)
-            {
-                foreach (string t in titles)
-                {
-                    Console.WriteLine(t);
-                }
-            }
+            //static void PrintAllTitles(params string[] titles)
+            //{
+            //    foreach (string t in titles)
+            //    {
+            //        Console.WriteLine(t);
+            //    }
+            //}
 
-            PrintAllTitles("Book", "The Pragmatic Programmer", "Refactoring");
+            //PrintAllTitles("Book", "The Pragmatic Programmer", "Refactoring");
 
             #endregion
 
-
-
-
+           
 
         }
     }
