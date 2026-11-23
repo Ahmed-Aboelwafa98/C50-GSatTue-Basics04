@@ -1,4 +1,6 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Diagnostics;
+using System.Drawing;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment_04
 {
@@ -78,6 +80,18 @@ namespace Assignment_04
             //int pages = 400;
             //pages = AddBonusPagesByRef(ref pages);
             //Console.WriteLine(pages);
+            #endregion
+            #region Question 08
+            //Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a
+            //new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length
+            //afterward.
+            //static void ReplaceArray(ref double[] prices)
+            //{
+            //    prices = new double[] { 10.0, 12.5, 15.0 };
+            //}
+            //double[] prices = {};
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);
             #endregion
 
         }
