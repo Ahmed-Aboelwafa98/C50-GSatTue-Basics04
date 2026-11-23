@@ -9,13 +9,9 @@ namespace Assignment_04
             #region Qussion 01
             //Create a one-dimensional array double[] prices with the values 25.5, 40.0, 33.75. Print
             //the second price(index 1).
-
             //double[] prices = { 25.5, 40.0, 33.75 };
             //Console.WriteLine(prices[1]);
-
             #endregion
-
-
             #region Qussion 02
 
             //Create a 2x2 multidimensional array int[,] shelfCopies where shelf 0 has 3, 5 copies and
@@ -23,6 +19,15 @@ namespace Assignment_04
 
             //int[,] shelfCopies = { { 3, 5 }, { 1, 4 } };
             //Console.WriteLine(shelfCopies[1, 0]);
+            #endregion
+            #region Qussion 03
+            //Write a method called PrintWelcomeMessage that takes no parameters and prints
+            //"Welcome to the Library!".Call it from Main.
+            //void PrintWelcomeMessage()
+            //{
+            //    Console.WriteLine("Welcome to the Library!");
+            //}
+            //PrintWelcomeMessage();
             #endregion
         }
     }
